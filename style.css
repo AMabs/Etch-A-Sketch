@@ -1,0 +1,17 @@
+body {
+    text-align: center;
+}
+
+.container {
+    display: grid;
+    width: 500px;
+    height: 500px;
+    border: 2px solid black;
+    margin: 50px auto;
+}
+
+.cells {
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+}
